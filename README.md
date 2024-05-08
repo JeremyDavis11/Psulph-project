@@ -1,5 +1,5 @@
 # Undergraduate-Thesis-JDavis
-Script documentation for a undergraduate bioinformatics project
+Script documentation for an undergraduate bioinformatics project. 
 
 ## 01_mapping
 
