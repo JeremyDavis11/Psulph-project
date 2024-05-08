@@ -72,7 +72,7 @@ samtools view -bS ${1} > ${1}.bam
 
 samtools sort ${1}.bam -o ${1}_sorted.bam
 
-samtools index ${1}_sorted.bam`
+samtools index ${1}_sorted.bam
 ```
 
 ---
