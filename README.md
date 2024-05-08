@@ -1,8 +1,6 @@
 # Undergraduate-Thesis-JDavis
 Script documentation for a undergraduate bioinformatics project
 
-# Thesis project readme
-
 ## 01_mapping
 
 mapping raw Pacbio read files to a *Poecilia mexicana* reference genome.
