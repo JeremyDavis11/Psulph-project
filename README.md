@@ -1,4 +1,4 @@
-# Psulph-project
+# Undergraduate-Thesis-JDavis
 Script documentation for a undergraduate bioinformatics project
 
 # Thesis project readme
