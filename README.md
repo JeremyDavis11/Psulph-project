@@ -49,7 +49,7 @@ samtools flagstat /hb/home/jealdavi/thesis_project/01_mapping/bam-files/map-psul
 ```
 ---
 
-##03_Convert
+## 03_Convert
 Converting the sam moutput file from minimap to a sorted and indexed bam file compatable with Sniffles2.
 
 ``` 
@@ -76,7 +76,7 @@ samtools index ${1}_sorted.bam
 ```
 
 ---
-##04_variant-calling
+## 04_variant-calling
 
 Sniffles script that calls variant between bam files. Outputs a vcf file with variant information
 
@@ -99,7 +99,7 @@ module load sniffles/sniffles-2.3.2 hb-gnu
 sniffles --input /hb/home/jealdavi/thesis_project/01_mapping/bam-files/map-pmex-ref_sorted.bam --vcf Pmex2Ref_sniffles.vcf.gz --threads 8 --reference /hb/groups/kelley_lab/poeciliids/hifi_genomes/02_nuc_assembly/02_HiFiasm/assemblies/m84066_231208_213947_s3.hifi_reads.bc2031.asm.bp.p_ctg.fa --minsvlen 4
 ```
 ---
-##05_intersect
+## 05_intersect
 
 screens for and displays the overlap between genomic features between the genome and reference. This script was run with 3 seperate vcf files containing variant information on exon, introns, and genes respectively. This script was also run for each vcf file with the [-v] option that writes the original bed file entry for each overlap to count SVs in intergenic regions.
 
